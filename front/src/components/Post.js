@@ -8,7 +8,6 @@ import {
   ThumbUp,
 } from "@material-ui/icons";
 import React from "react";
-// import { baseURL } from "../axios";
 
 function Post({ imgName, profilePic, timestamp, username, message }) {
   return (
