@@ -28,21 +28,3 @@ function App() {
 }
 
 export default App;
-
-// return (
-//   <div className="app">
-//     {!user ? (
-//       <Login />
-//     ) : (
-//       <>
-//         <Header />
-//         <div className="app__body">
-//           <Sidebar />
-//           <Feed />
-//           <Widgets />
-//         </div>
-//       </>
-//     )}
-//   </div>
-// );
-// }

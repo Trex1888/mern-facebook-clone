@@ -8,6 +8,7 @@ import {
   ThumbUp,
 } from "@material-ui/icons";
 import React from "react";
+import { baseURL } from "../axios";
 
 function Post({ imgName, profilePic, timestamp, username, message }) {
   return (
@@ -27,7 +28,8 @@ function Post({ imgName, profilePic, timestamp, username, message }) {
       {imgName && (
         <div className="post__image">
           <img
-            src={`http://localhost:9000/retrieve/image/single?name=${imgName}`}
+            src={`${baseURL}/retrieve/image/single?name=${imgName}`}
+            // src={`http://localhost:9000/retrieve/image/single?name=${imgName}`}
             alt="img"
           />
         </div>
